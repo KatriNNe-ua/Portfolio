@@ -106,7 +106,7 @@ body {
 }
 
 .title {
-	@include m.adaptiveValue("font-size", 80, 50);
+	@include m.adaptiveValue("font-size", 80, 55);
 	letter-spacing: m.toRem(3);
 	line-height: 1.2;
 	font-weight: 800;

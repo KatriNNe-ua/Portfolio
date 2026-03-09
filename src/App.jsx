@@ -10,7 +10,7 @@ function App() {
       <div className="wrapper">
 		<Header/>
 		<Main/>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

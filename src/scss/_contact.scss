@@ -48,6 +48,10 @@
 			width: m.toRem(40);
 			height: m.toRem(40);
 			transition: transform 0.3s;
+			@media (max-width: m.toEm(767.98)) {
+				width: m.toRem(30);
+				height: m.toRem(30);
+			}
 			path {
 				fill: var(--accent-color);
 			}
@@ -94,7 +98,7 @@
 			color: var(--accent-color);
 		}
 		&:not(:last-child) {
-			@include m.adaptiveValue("margin-bottom", 50, 25);
+			@include m.adaptiveValue("margin-bottom", 50, 35);
 		}
 	}
 
@@ -152,5 +156,8 @@
 	// .form__btn
 
 	&__btn {
+		@media (max-width: m.toEm(380)) {
+				font-size:  m.toRem(20);
+			}
 	}
 }
