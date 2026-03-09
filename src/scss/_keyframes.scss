@@ -1,0 +1,14 @@
+@use "sass:math";
+@use "./mixins" as m;
+
+@keyframes shadow {
+	0% {
+		box-shadow: m.toRem(0) m.toRem(0) m.toRem(30) #e3d51725;
+	}
+	50% {
+		box-shadow: m.toRem(0) m.toRem(0) m.toRem(15) #e3d51725;
+	}
+	100% {
+		box-shadow: m.toRem(0) m.toRem(0) m.toRem(30) #e3d51725;
+	}
+}
