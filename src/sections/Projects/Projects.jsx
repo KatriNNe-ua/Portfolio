@@ -1,5 +1,6 @@
-import { ParallaxProvider } from "react-scroll-parallax";
+
 import ProjectItem from "./ProjectItem";
+import { memo } from "react";
 
 const Projects = ({ data }) => {
   return (
@@ -9,17 +10,15 @@ const Projects = ({ data }) => {
           <span>P</span>rojects
         </h2>
 
-        <ParallaxProvider>
-   
           <ul className="project__content work">
             {data?.map((work) => (
               <ProjectItem work={work} key={work.id} />
             ))}
           </ul>
-        </ParallaxProvider>
+
       </div>
     </section>
   );
 };
 
-export default Projects;
+export default memo(Projects);

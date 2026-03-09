@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { Parallax } from "react-scroll-parallax";
 
 const ProjectItem = ({ work }) => {
@@ -42,7 +43,12 @@ const ProjectItem = ({ work }) => {
               </ul>
             </div>
           )}
-          <a href={work.link} className=" btn" target="_blank">
+          <a
+            href={work.link}
+            className=" btn"
+            target="_blank"
+            aria-label="Open project website"
+          >
             Website
             <svg
               width="24"
@@ -66,4 +72,4 @@ const ProjectItem = ({ work }) => {
   );
 };
 
-export default ProjectItem;
+export default memo(ProjectItem);

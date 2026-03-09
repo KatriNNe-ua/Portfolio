@@ -39,7 +39,7 @@ export const myProjects = [
     id: 3,
     title: "Brooklyn Gilbert",
     type: "Landing Page",
-    techStack: ["JavaScript", "SCSS"],
+    techStack: ["JavaScript", "CSS"],
     features: [
       "Responsive layout",
       "Interactive UI elements",
@@ -50,6 +50,19 @@ export const myProjects = [
   },
   {
     id: 4,
+    title: "Weep",
+    type: "Landing Page",
+    techStack: ["JavaScript", "SCSS"],
+    features: [
+      "Responsive layout",
+      "Interactive UI elements",
+      "Optimized performance",
+    ],
+    image: "images/project/weep.webp",
+    link: "https://katrinne-ua.github.io/my_work/weep/",
+  },
+  {
+    id: 5,
     title: "Miód Malina",
     type: "Landing Page",
     techStack: ["JavaScript", "SCSS"],
