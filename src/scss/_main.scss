@@ -1,13 +1,14 @@
 @use "./mixins" as m;
 @import url("https://fonts.googleapis.com/css?family=JetBrains+Mono:300,regular,500,600,700,800&display=swap");
 
-html.preload {
-	opacity: 0;
-}
-html.loaded {
-	opacity: 1;
-	transition: opacity 2s ease;
-}
+// html.preload {
+// 	opacity: 0;
+// 	background-color: var(--dark-color);
+// }
+// html.loaded {
+// 	opacity: 1;
+// 	transition: opacity 2s ease;
+// }
 
 /* Основні стилі */
 body {
@@ -35,7 +36,14 @@ body {
 	max-width: m.toRem(m.$containerWidth);
 	margin: 0 auto;
 }
+.page {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
 
+.page.show {
+  opacity: 1;
+}
 .footer {
 	@include m.adaptiveValue("padding-block", 35, 20);
 	background-color: var(--dark-color);

@@ -119,16 +119,6 @@ table {
             box-shadow: 0rem 0rem 1.875rem rgba(227, 213, 23, 0.1450980392);
   }
 }
-html.preload {
-  opacity: 0;
-}
-
-html.loaded {
-  opacity: 1;
-  -webkit-transition: opacity 2s ease;
-  transition: opacity 2s ease;
-}
-
 /* Основні стилі */
 body {
   background-color: var(--dark-color);
@@ -159,6 +149,16 @@ body {
   padding-inline: 0.9375rem;
   max-width: 80rem;
   margin: 0 auto;
+}
+
+.page {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.page.show {
+  opacity: 1;
 }
 
 @media (min-width: 80em) {
