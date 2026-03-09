@@ -4,7 +4,7 @@
 .contact {
 	// .contact__container
 	&__container {
-		@include m.adaptiveValue("padding-block", 100, 50);
+		@include m.adaptiveValue("padding-block", 150, 70);
 	}
 	// .contact__tittle
 	&__title {
@@ -92,7 +92,7 @@
 		@include m.adaptiveValue("font-size", 40, 26);
 		text-align: center;
 		line-height: 1.2;
-		font-weight: 500;
+		font-weight: 600;
 
 		span {
 			color: var(--accent-color);

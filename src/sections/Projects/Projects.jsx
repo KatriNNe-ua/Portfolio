@@ -1,3 +1,4 @@
+import { ParallaxProvider } from "react-scroll-parallax";
 import ProjectItem from "./ProjectItem";
 
 const Projects = ({ data }) => {
@@ -8,11 +9,14 @@ const Projects = ({ data }) => {
           <span>P</span>rojects
         </h2>
 
-        <ul className="project__content work">
-          {data?.map((work) => (
-            <ProjectItem work={work} key={work.id} />
-          ))}
-        </ul>
+        <ParallaxProvider>
+   
+          <ul className="project__content work">
+            {data?.map((work) => (
+              <ProjectItem work={work} key={work.id} />
+            ))}
+          </ul>
+        </ParallaxProvider>
       </div>
     </section>
   );

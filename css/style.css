@@ -302,17 +302,17 @@ body {
 }
 @media (min-width: 80em) {
   .header__container {
-    min-height: 5.625rem;
+    min-height: 5.9375rem;
   }
 }
 @media (min-width: 20em) and (max-width: 80em) {
   .header__container {
-    min-height: clamp( 3.125rem , 2.2916666667rem  +  4.1666666667vw , 5.625rem );
+    min-height: clamp( 3.75rem , 3.0208333333rem  +  3.6458333333vw , 5.9375rem );
   }
 }
 @media (max-width: 20em) {
   .header__container {
-    min-height: 3.125rem;
+    min-height: 3.75rem;
   }
 }
 .header__container {
@@ -692,17 +692,17 @@ body {
 
 @media (min-width: 80em) {
   .project {
-    padding-block: 9.375rem;
+    padding-top: 9.375rem;
   }
 }
 @media (min-width: 20em) and (max-width: 80em) {
   .project {
-    padding-block: clamp( 9.375rem , 9.375rem  +  0vw , 9.375rem );
+    padding-top: clamp( 4.375rem , 2.7083333333rem  +  8.3333333333vw , 9.375rem );
   }
 }
 @media (max-width: 20em) {
   .project {
-    padding-block: 9.375rem;
+    padding-top: 4.375rem;
   }
 }
 @media (min-width: 80em) {
@@ -778,8 +778,8 @@ body {
 .work__img img {
   position: absolute;
   width: 100%;
-  height: 115%;
-  inset: 0;
+  height: 116%;
+  inset: -8% 0 -8% 0;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-transition: -webkit-transform 0.3s linear;
@@ -911,17 +911,17 @@ body {
 
 @media (min-width: 80em) {
   .contact__container {
-    padding-block: 6.25rem;
+    padding-block: 9.375rem;
   }
 }
 @media (min-width: 20em) and (max-width: 80em) {
   .contact__container {
-    padding-block: clamp( 3.125rem , 2.0833333333rem  +  5.2083333333vw , 6.25rem );
+    padding-block: clamp( 4.375rem , 2.7083333333rem  +  8.3333333333vw , 9.375rem );
   }
 }
 @media (max-width: 20em) {
   .contact__container {
-    padding-block: 3.125rem;
+    padding-block: 4.375rem;
   }
 }
 @media (min-width: 80em) {
@@ -1124,7 +1124,7 @@ body {
 .form__title {
   text-align: center;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 600;
 }
 .form__title span {
   color: var(--accent-color);

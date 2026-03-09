@@ -42,7 +42,7 @@ const ProjectItem = ({ work }) => {
               </ul>
             </div>
           )}
-          <a href={work.link} className=" btn">
+          <a href={work.link} className=" btn" target="_blank">
             Website
             <svg
               width="24"
