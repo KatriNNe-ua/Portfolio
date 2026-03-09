@@ -800,6 +800,7 @@ body {
 @media (max-width: 47.99875em) {
   .work__img img {
     inset: -12% 0 -12% 0;
+    height: 130%;
   }
 }
 .work__parallax {
