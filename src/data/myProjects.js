@@ -19,7 +19,7 @@ export const myProjects = [
       "Form validation",
       "API integration",
     ],
-    image: "../../public/images/project/image3.webp",
+    image: "images/project/image3.webp",
     link: "#",
   },
   {
@@ -43,7 +43,7 @@ export const myProjects = [
       "Form validation",
       "API integration",
     ],
-    image: "../../public/images/project/image2.webp",
+    image: "images/project/image2.webp",
     link: "#",
   },
 ];
