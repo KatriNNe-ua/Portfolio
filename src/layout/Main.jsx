@@ -8,7 +8,9 @@ import Contact from "../sections/contact/Contact";
 const Main = () => {
   return (
     <main className="page">
-      <div className="bg"></div>
+      <div className="bg">
+		<img src="images/bg.webp" alt="background" />
+	  </div>
       <Hero />
 	  <Projects data={myProjects}/>
 	<Contact/>
