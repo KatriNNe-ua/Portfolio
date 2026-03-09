@@ -3,7 +3,7 @@
   return (
     <footer className="footer">
       <div className="footer__container">
-        &copy; 2026 Kateryna Mazuryk. All rights reserved.
+        &copy; 2026 Katya Mazuryk. All rights reserved.
       </div>
     </footer>
   );

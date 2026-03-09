@@ -125,8 +125,8 @@ html.preload {
 
 html.loaded {
   opacity: 1;
-  -webkit-transition: opacity 1.5s ease;
-  transition: opacity 1.5s ease;
+  -webkit-transition: opacity 2s ease;
+  transition: opacity 2s ease;
 }
 
 /* Основні стилі */
@@ -240,7 +240,7 @@ body {
   inset: 0;
   z-index: -1;
   opacity: 0.06;
-  background: url("images/bg.avif") center center/cover repeat fixed;
+  background: url("images/bg.webp") center center/cover repeat fixed;
 }
 
 @media (min-width: 80em) {

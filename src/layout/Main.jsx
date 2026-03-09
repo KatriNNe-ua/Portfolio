@@ -8,7 +8,7 @@ import Contact from "../sections/contact/Contact";
 const Main = () => {
   return (
     <main className="page">
-      <div class="bg"></div>
+      <div className="bg"></div>
       <Hero />
 	  <Projects data={myProjects}/>
 	<Contact/>

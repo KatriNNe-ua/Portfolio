@@ -23,10 +23,10 @@ const ProjectItem = ({ work }) => {
               <div className="work__description">{work.description}</div>
             </div>
           )}
-          <div class="work__desc">
-            <div class="work__info">Tech Stack:</div>
+          <div className="work__desc">
+            <div className="work__info">Tech Stack:</div>
 
-            <ul class="work__stack">
+            <ul className="work__stack">
               {work.techStack.map((item, id) => (
                 <li key={id}>{item}</li>
               ))}

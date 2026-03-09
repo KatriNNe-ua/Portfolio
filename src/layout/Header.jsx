@@ -54,7 +54,7 @@ function Header() {
                   to="projects"
                   smooth={true}
                   duration={500}
-                  class="menu__link"
+                  className="menu__link"
                   onClick={closeMenu}
                 >
                   Projects
@@ -65,7 +65,7 @@ function Header() {
                   to="contact"
                   smooth={true}
                   duration={500}
-                  class="menu__link"
+                  className="menu__link"
                   onClick={closeMenu}
                 >
                   Contact
@@ -75,7 +75,7 @@ function Header() {
           </div>
         </nav>
         <button
-          class="icon-menu"
+          className="icon-menu"
           type="button"
           aria-label="button menu"
           onClick={toggleMenu}
