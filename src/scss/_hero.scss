@@ -5,7 +5,7 @@
 	// .hero__container
 	&__container {
 		@include m.adaptiveValue("padding-top", 160, 120);
-		min-height: 100svh;
+		min-height: 100dvh;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		@include m.adaptiveValue("gap", 70, 50);
