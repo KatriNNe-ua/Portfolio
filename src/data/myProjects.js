@@ -21,6 +21,7 @@ export const myProjects = [
     ],
     image: "images/project/jacob-grönberg.webp",
     link: "https://superlative-shortbread-39d303.netlify.app/",
+    position: "right",
   },
   {
     id: 2,

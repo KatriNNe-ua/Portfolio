@@ -60,7 +60,7 @@
 			object-fit: cover;
 			transition: transform 0.3s linear;
 			will-change: transform;
-			object-position: right;
+			object-position: center;
 
 			@media (any-hover: hover) {
 				&:hover {

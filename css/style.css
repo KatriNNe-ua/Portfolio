@@ -787,8 +787,8 @@ body {
   transition: transform 0.3s linear;
   transition: transform 0.3s linear, -webkit-transform 0.3s linear;
   will-change: transform;
-  -o-object-position: right;
-     object-position: right;
+  -o-object-position: center;
+     object-position: center;
 }
 @media (any-hover: hover) {
   .work__img img:hover {

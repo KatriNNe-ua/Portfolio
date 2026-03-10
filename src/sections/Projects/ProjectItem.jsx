@@ -7,7 +7,7 @@ const ProjectItem = ({ work }) => {
       <article className="work__item">
         <a href={work.link} className="work__img" target="_blank">
           <Parallax speed={-13} className="work__parallax">
-            <img src={work.image} alt={`Screenshot of ${work.title}`} />
+            <img src={work.image} alt={`Screenshot of ${work.title}`} style={{objectPosition: work.position?work.position: "center"}}/>
           </Parallax>
         </a>
         <div className="work__content">
