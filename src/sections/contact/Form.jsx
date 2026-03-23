@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Input from "./components/Input";
 import Textarea from "./components/Textarea";
 import { useRegisterForm } from "./hook/useRegisterForm";
@@ -7,6 +7,15 @@ function Form() {
   const { register, handleSubmit, reset, errors, isSubmitting } =
     useRegisterForm();
   const [successMessage, setSuccessMessage] = useState("");
+
+ useEffect(() => {
+   const time = setTimeout(() => {
+     setSuccessMessage("");
+   }, 2500);
+   return () => clearTimeout(time);
+ }, [successMessage]);
+
+
   const submit = async (values) => {
     try {
       const response = await fetch(
