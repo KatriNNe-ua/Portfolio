@@ -1,6 +1,35 @@
 export const myProjects = [
   {
-    id: 1,
+    id: 10,
+    title: "Shoppe",
+    type: "E-commerce Single Page Application (SPA)",
+    techStack: [
+      "React",
+      "SCSS",
+      "Redux Toolkit",
+      "RTK Query",
+      "React Router",
+      "Yup",
+	  "Swiper",
+      "Firebase",
+    ],
+    features: [
+      "Product listing with pagination (cursor-based)",
+      "Product filtering and sorting",
+      "Favorites system",
+      "Shopping cart with state management",
+      "API integration with RTK Query (caching & auto refetch)",
+      "Form validation with Yup",
+      "Authentication (Firebase)",
+      "Responsive layout",
+      "Optimized rendering with memoization",
+    ],
+    image: "images/project/shoppe.webp",
+    link: "https://shoppe-5e455.web.app/",
+
+  },
+  {
+    id: 11,
     title: "Jacob Grönberg",
     type: "Single Page Application (SPA)",
     techStack: [
@@ -24,7 +53,7 @@ export const myProjects = [
     position: "right",
   },
   {
-    id: 11,
+    id: 12,
     title: "Stream Vibe",
     type: "Single Page Application (SPA)",
     techStack: [
@@ -53,7 +82,7 @@ export const myProjects = [
     position: "center",
   },
   {
-    id: 2,
+    id: 13,
     title: "Growfy",
     type: "Landing Page",
     techStack: ["JavaScript", "SCSS"],
@@ -66,7 +95,7 @@ export const myProjects = [
     link: "https://katrinne-ua.github.io/my_work/growfy/",
   },
   {
-    id: 3,
+    id: 14,
     title: "Brooklyn Gilbert",
     type: "Landing Page",
     techStack: ["JavaScript", "CSS"],
@@ -79,7 +108,7 @@ export const myProjects = [
     link: "https://katrinne-ua.github.io/lessons/lesson_20/",
   },
   {
-    id: 4,
+    id: 15,
     title: "Weep",
     type: "Landing Page",
     techStack: ["JavaScript", "SCSS"],
@@ -92,7 +121,7 @@ export const myProjects = [
     link: "https://katrinne-ua.github.io/my_work/weep/",
   },
   {
-    id: 5,
+    id: 16,
     title: "Miód Malina",
     type: "Landing Page",
     techStack: ["JavaScript", "SCSS"],
