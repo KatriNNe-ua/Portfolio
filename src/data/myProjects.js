@@ -10,7 +10,8 @@ export const myProjects = [
       "RTK Query",
       "React Router",
       "Yup",
-	  "Swiper",
+      "i18next",
+      "Swiper",
       "Firebase",
     ],
     features: [
@@ -21,12 +22,14 @@ export const myProjects = [
       "API integration with RTK Query (caching & auto refetch)",
       "Form validation with Yup",
       "Authentication (Firebase)",
+      "Theme switching (light / dark mode)",
+      "Internationalization (i18next, multi-language support)",
       "Responsive layout",
       "Optimized rendering with memoization",
     ],
-    image: "images/project/shoppe.webp",
+    image: "images/project/shoppe3.jpg",
     link: "https://shoppe-5e455.web.app/",
-
+    position: "left",
   },
   {
     id: 11,
