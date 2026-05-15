@@ -1,19 +1,12 @@
 import { filters } from "../../data/myProjects";
 import ProjectItem from "./ProjectItem";
-import { memo, useEffect, useRef, useState } from "react";
+import { memo, useRef, useState } from "react";
 
 const Projects = ({ data }) => {
   const [filter, setFilter] = useState(() => filters[0]);
   const [numberPage, setNumberPage] = useState(1);
+
   const sectionRef = useRef(null);
-
-useEffect(() => {
-  window.scrollTo({
-    top: sectionRef.current.offsetTop,
-    behavior: "smooth",
-  });
-}, [numberPage]);
-
 
   let list;
 
@@ -34,14 +27,18 @@ useEffect(() => {
   const handlePageChange = (page) => {
     setNumberPage(page);
 
-
+    requestAnimationFrame(() => {
+      window.scrollTo({
+        top: sectionRef.current.offsetTop,
+        behavior: "smooth",
+      });
+    });
   };
 
-const changeFilter=(f)=>{
-	setFilter(f)
-	setNumberPage(1)
-}
-
+  const changeFilter = (f) => {
+    setFilter(f);
+    setNumberPage(1);
+  };
 
   return (
     <section ref={sectionRef} className="project" id="projects">
