@@ -1,5 +1,15 @@
 import Actions from "../components/Actions";
-
+const stack = [
+  "JavaScript",
+  "React",
+  "TypeScript",
+  "Redux",
+  "RTK Query",
+  "Firebase",
+  "CSS",
+  "SCSS",
+  "Adobe Photoshop",
+];
 const Hero = () => {
   return (
     <section className="hero" id="hero">
@@ -25,6 +35,15 @@ const Hero = () => {
               from scratch and applying best practices used in real-world
               development.
             </p>
+          </div>
+          <div className="hero__desc">
+            <div className="hero__info">Tech Stack:</div>
+
+            <ul className="hero__stack">
+              {stack.map((item, id) => (
+                <li key={id}>{item}</li>
+              ))}
+            </ul>
           </div>
           <div className="hero__inner">
             <Actions />
