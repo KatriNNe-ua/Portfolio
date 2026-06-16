@@ -8,7 +8,7 @@ const stack = [
   "Firebase",
   "CSS",
   "SCSS",
-  "Adobe Photoshop",
+  "GSAP",
 ];
 const Hero = () => {
   return (
